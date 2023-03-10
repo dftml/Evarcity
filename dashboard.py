@@ -4,6 +4,7 @@ import streamlit.components.v1 as components
 import pandas as pd
 import numpy as np
 import pickle
+pip install -U scikit-learn
 from sklearn.ensemble import RandomForestClassifier
 
 st.set_page_config( page_title="Dashboard", page_icon="🧊", layout="wide", initial_sidebar_state="expanded")
